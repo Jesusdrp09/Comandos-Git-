@@ -18,7 +18,9 @@ public class Version1 {
     public static void main(String[] args) {
        JOptionPane.showMessageDialog(null, "Aprendiendo a usar git\n\nComandos:\nls: Listar todos tus directorios\npwd: Saber en que directorio te encuentras"+
                "\ngit init: Para inicializar un proyecto nuevo\ngit status: Para ver el estado de nuestros archivos\ngit add (Nombre archivo): Para agregar un archivo al staging area"+
-               "\ngit");
+               "\ngit commit: PAra crear un primer punto de control de nuestro codigo\ngit config --global user.email 'Correo': Para configurar el email de este usuario"+
+               "git config --global user.name 'nombre': Para configurar el nombre del usuario\ngit log: Para ver todos los commits que hemos creados"
+               + "\ngit checkout --: Para revertir los cambios de los archivos\ngit diff: Para ver las diferencias hechas en los archivos");
     }
     
 }
